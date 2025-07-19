@@ -1,7 +1,16 @@
 # Simple Python Greeting Program
 
 # Ask the user for their name
-name = input("What is your name? ")
+# name = input("What is your name? ")
 
 # Greet the user
-print("Hello, " + name + "! Welcome!")
+# print("Hello, " + name + "! Welcome!")
+
+
+
+# user.py
+
+import os
+
+name = os.environ.get("USERNAME", "DefaultUser")
+print(f"Hello, {name}!")
