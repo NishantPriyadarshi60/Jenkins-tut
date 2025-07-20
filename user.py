@@ -12,5 +12,6 @@
 
 import os
 print("Hello, Nishant!")
+print("Testing for git polling in Jenkins")
 name = os.environ.get("USERNAME", "DefaultUser")
 print(f"Hello, {name}!")
